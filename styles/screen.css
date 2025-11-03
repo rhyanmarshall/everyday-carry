@@ -1,7 +1,15 @@
-body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+h1 {
+    font-family: cursive;
+    color: 073B4C;
+    background: white;
+    padding: 0 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Times New Roman", Times, serif;
+    color: 073B4C;
+    background: white;
     padding: 0 40px;
     text-align: center;
 }
