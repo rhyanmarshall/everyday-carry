@@ -1,58 +1,97 @@
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #fff7f6; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 48px auto 32px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
 h1 {
-    font-family: cursive;
-    color: white;
-    background: 073B4C;
-    padding: 0 40px;
-    text-align: center;
+  font-size: 36px;
+  color: #e65b6f; 
+  margin-bottom: 1rem;
 }
 
 h2 {
-    font-family: Times New Roman, Times, serif;
-    color: 073B4C;
-    background: white;
-    padding: 0 40px;
-    text-align: center;
+  font-size: 21px;
+  color: #ff8f8f;
+  margin-bottom: 13px;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+header {
+  background-color: #ffe2df;
+  padding: 16px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+footer {
+  text-align: center;
+  background-color: #ffe2df;
+  color: #b64a50;
+  padding: 16px 0;
+  font-size: 16px;
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 0;
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+.nav a {
+  text-decoration: none;
+  color: #d94f57;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+.nav a:hover {
+  color: #ffb3b3;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+img.home,
+img.phone,
+img.hairclip,
+img.aquaphor {
+  display: block;
+  margin: 32px auto;
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-img.about {
-    opacity: 0.5;
+a {
+  color: #e65b6f;
+  text-decoration: underline;
 }
+
+a:hover {
+  color: #ff9b9b;
+}
+
+p, h1, h2 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+main {
+  margin-top: 1.5rem;
+}
+
